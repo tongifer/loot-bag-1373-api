@@ -3,15 +3,15 @@ const app = express();
 
 app.get("/", async (req, res) => {
   res.json({
-    id: 1373,
-    weapon: 'Scimitar',
-    chestArmor: 'Silk Robe',
-    headArmor: 'Hood of Reflection',
-    waistArmor: 'Sash',
-    footArmor: 'Holy Greaves',
-    handArmor: '"Victory Moon" Gauntlets of Vitriol +1',
-    necklace: 'Amulet',
-    ring: 'Gold Ring'
+    id: 5172,
+    weapon: 'Book',
+    chestArmor: 'Demon Husk',
+    headArmor: '"Woe Peak" Great Helm of Anger +1',
+    waistArmor: 'Plated Belt',
+    footArmor: 'Dragonskin Boots',
+    handArmor: 'Linen Gloves',
+    necklace: 'Pendant of Titans',
+    ring: 'Bronze Ring of Anger'
   });
 });
 
